@@ -72,6 +72,7 @@ The clean creation output was captured in `output.txt` as required.
 ---
 
 ## Repository Structure
+```
 CS218-HW3-VPC-Setup/
 │
 ├── README.md
@@ -83,7 +84,7 @@ CS218-HW3-VPC-Setup/
 ├── fang-route-tables.json
 └── screenshots/
 └── fang-vpc.drawio.png
-
+```
 
 ---
 
