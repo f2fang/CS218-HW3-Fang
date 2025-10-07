@@ -1,0 +1,17 @@
+{
+  "UserId": "AIDAW3MEB5UGVM4M7WLS6",
+  "Account": "471112740109",
+  "Arn": "arn:aws:iam::471112740109:user/fang",
+  "ResponseMetadata": {
+    "RequestId": "a8ef1124-adc5-4f85-9f59-80306a24c742",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "a8ef1124-adc5-4f85-9f59-80306a24c742",
+      "x-amz-sts-extended-request-id": "MTp1cy13ZXN0LTE6MTc1OTM4OTU5ODc1MzpSOlJjY0tZWENw",
+      "content-type": "text/xml",
+      "content-length": "401",
+      "date": "Thu, 02 Oct 2025 07:19:58 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}

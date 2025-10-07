@@ -1,0 +1,83 @@
+{
+  "Subnets": [
+    {
+      "AvailabilityZoneId": "usw1-az3",
+      "MapCustomerOwnedIpOnLaunch": false,
+      "OwnerId": "471112740109",
+      "AssignIpv6AddressOnCreation": false,
+      "Ipv6CidrBlockAssociationSet": [],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "fang-private-subnet"
+        }
+      ],
+      "SubnetArn": "arn:aws:ec2:us-west-1:471112740109:subnet/subnet-095191e688a78eab1",
+      "EnableDns64": false,
+      "Ipv6Native": false,
+      "PrivateDnsNameOptionsOnLaunch": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": false,
+        "EnableResourceNameDnsAAAARecord": false
+      },
+      "BlockPublicAccessStates": {
+        "InternetGatewayBlockMode": "off"
+      },
+      "SubnetId": "subnet-095191e688a78eab1",
+      "State": "available",
+      "VpcId": "vpc-02a6e361c627a0483",
+      "CidrBlock": "10.0.2.0/24",
+      "AvailableIpAddressCount": 250,
+      "AvailabilityZone": "us-west-1c",
+      "DefaultForAz": false,
+      "MapPublicIpOnLaunch": false
+    },
+    {
+      "AvailabilityZoneId": "usw1-az1",
+      "MapCustomerOwnedIpOnLaunch": false,
+      "OwnerId": "471112740109",
+      "AssignIpv6AddressOnCreation": false,
+      "Ipv6CidrBlockAssociationSet": [],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "fang-public-subnet"
+        }
+      ],
+      "SubnetArn": "arn:aws:ec2:us-west-1:471112740109:subnet/subnet-0166c8a0c55b9f130",
+      "EnableDns64": false,
+      "Ipv6Native": false,
+      "PrivateDnsNameOptionsOnLaunch": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": false,
+        "EnableResourceNameDnsAAAARecord": false
+      },
+      "BlockPublicAccessStates": {
+        "InternetGatewayBlockMode": "off"
+      },
+      "SubnetId": "subnet-0166c8a0c55b9f130",
+      "State": "available",
+      "VpcId": "vpc-02a6e361c627a0483",
+      "CidrBlock": "10.0.1.0/24",
+      "AvailableIpAddressCount": 249,
+      "AvailabilityZone": "us-west-1a",
+      "DefaultForAz": false,
+      "MapPublicIpOnLaunch": true
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "0f3177bf-422a-46af-8e77-f5a895eb735b",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "0f3177bf-422a-46af-8e77-f5a895eb735b",
+      "cache-control": "no-cache, no-store",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "vary": "accept-encoding",
+      "content-type": "text/xml;charset=UTF-8",
+      "content-length": "2509",
+      "date": "Thu, 02 Oct 2025 07:19:59 GMT",
+      "server": "AmazonEC2"
+    },
+    "RetryAttempts": 0
+  }
+}

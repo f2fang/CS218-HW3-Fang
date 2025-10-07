@@ -1,0 +1,9 @@
+VPC: vpc-02a6e361c627a0483
+Subnets: subnet-0166c8a0c55b9f130 subnet-095191e688a78eab1
+IGW: igw-073d2ed1abfb3055b
+NATGW: nat-068c3f5077b815ec5
+RouteTables: rtb-033da78a7ca414404 rtb-0b65db267da34b4b1
+SecurityGroup Public: sg-042e6ccd49518d1cd
+SecurityGroup Private: sg-0eea52ae91a3f1a4e
+EC2: i-0a7b1dbe7ef056db9 i-0adbab3b1f61cec5b                                               
+

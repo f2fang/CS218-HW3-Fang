@@ -1,0 +1,101 @@
+{
+  "RouteTables": [
+    {
+      "Associations": [
+        {
+          "Main": false,
+          "RouteTableAssociationId": "rtbassoc-0c10533ca5bf17d49",
+          "RouteTableId": "rtb-0b65db267da34b4b1",
+          "SubnetId": "subnet-095191e688a78eab1",
+          "AssociationState": {
+            "State": "associated"
+          }
+        }
+      ],
+      "PropagatingVgws": [],
+      "RouteTableId": "rtb-0b65db267da34b4b1",
+      "Routes": [
+        {
+          "DestinationCidrBlock": "10.0.0.0/16",
+          "GatewayId": "local",
+          "Origin": "CreateRouteTable",
+          "State": "active"
+        },
+        {
+          "DestinationCidrBlock": "0.0.0.0/0",
+          "NatGatewayId": "nat-068c3f5077b815ec5",
+          "Origin": "CreateRoute",
+          "State": "active"
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "fang-rtb-private"
+        }
+      ],
+      "VpcId": "vpc-02a6e361c627a0483",
+      "OwnerId": "471112740109"
+    },
+    {
+      "Associations": [
+        {
+          "Main": true,
+          "RouteTableAssociationId": "rtbassoc-04c0fa8cb7637af6a",
+          "RouteTableId": "rtb-033da78a7ca414404",
+          "AssociationState": {
+            "State": "associated"
+          }
+        },
+        {
+          "Main": false,
+          "RouteTableAssociationId": "rtbassoc-0f1cd4fa7d5a97dc5",
+          "RouteTableId": "rtb-033da78a7ca414404",
+          "SubnetId": "subnet-0166c8a0c55b9f130",
+          "AssociationState": {
+            "State": "associated"
+          }
+        }
+      ],
+      "PropagatingVgws": [],
+      "RouteTableId": "rtb-033da78a7ca414404",
+      "Routes": [
+        {
+          "DestinationCidrBlock": "10.0.0.0/16",
+          "GatewayId": "local",
+          "Origin": "CreateRouteTable",
+          "State": "active"
+        },
+        {
+          "DestinationCidrBlock": "0.0.0.0/0",
+          "GatewayId": "igw-073d2ed1abfb3055b",
+          "Origin": "CreateRoute",
+          "State": "active"
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "fang-main-RTB"
+        }
+      ],
+      "VpcId": "vpc-02a6e361c627a0483",
+      "OwnerId": "471112740109"
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "3e0b8d88-46eb-4881-b0dc-5d2b576b0be5",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "3e0b8d88-46eb-4881-b0dc-5d2b576b0be5",
+      "cache-control": "no-cache, no-store",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "vary": "accept-encoding",
+      "content-type": "text/xml;charset=UTF-8",
+      "content-length": "2171",
+      "date": "Thu, 02 Oct 2025 07:19:59 GMT",
+      "server": "AmazonEC2"
+    },
+    "RetryAttempts": 0
+  }
+}

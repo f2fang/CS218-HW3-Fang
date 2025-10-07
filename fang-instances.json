@@ -1,0 +1,322 @@
+{
+  "Reservations": [
+    {
+      "ReservationId": "r-08edf5263335d3c23",
+      "OwnerId": "471112740109",
+      "Groups": [],
+      "Instances": [
+        {
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "AttachTime": "2025-10-02 07:19:41+00:00",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-0004cb3fcc749ac90"
+              }
+            }
+          ],
+          "ClientToken": "c1704118-288d-46cf-9916-12f0d732fc14",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "NetworkInterfaces": [
+            {
+              "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "",
+                "PublicIp": "54.176.164.189"
+              },
+              "Attachment": {
+                "AttachTime": "2025-10-02 07:19:40+00:00",
+                "AttachmentId": "eni-attach-074e11b66023496e9",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupId": "sg-042e6ccd49518d1cd",
+                  "GroupName": "fang-sg-public"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "02:ff:ef:8e:63:71",
+              "NetworkInterfaceId": "eni-0fa6da72e0910043b",
+              "OwnerId": "471112740109",
+              "PrivateIpAddress": "10.0.1.196",
+              "PrivateIpAddresses": [
+                {
+                  "Association": {
+                    "IpOwnerId": "amazon",
+                    "PublicDnsName": "",
+                    "PublicIp": "54.176.164.189"
+                  },
+                  "Primary": true,
+                  "PrivateIpAddress": "10.0.1.196"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-0166c8a0c55b9f130",
+              "VpcId": "vpc-02a6e361c627a0483",
+              "InterfaceType": "interface",
+              "Operator": {
+                "Managed": false
+              }
+            }
+          ],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupId": "sg-042e6ccd49518d1cd",
+              "GroupName": "fang-sg-public"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "fang-ec2-public"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled",
+            "InstanceMetadataTags": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "BootMode": "uefi-preferred",
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2025-10-02 07:19:40+00:00",
+          "PrivateDnsNameOptions": {
+            "HostnameType": "ip-name",
+            "EnableResourceNameDnsARecord": false,
+            "EnableResourceNameDnsAAAARecord": false
+          },
+          "MaintenanceOptions": {
+            "AutoRecovery": "default",
+            "RebootMigration": "default"
+          },
+          "CurrentInstanceBootMode": "uefi",
+          "NetworkPerformanceOptions": {
+            "BandwidthWeighting": "default"
+          },
+          "Operator": {
+            "Managed": false
+          },
+          "InstanceId": "i-0a7b1dbe7ef056db9",
+          "ImageId": "ami-0b09bf4b909f29738",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "PrivateDnsName": "ip-10-0-1-196.us-west-1.compute.internal",
+          "PublicDnsName": "",
+          "StateTransitionReason": "",
+          "KeyName": "ff-test",
+          "AmiLaunchIndex": 0,
+          "ProductCodes": [],
+          "InstanceType": "t3.micro",
+          "LaunchTime": "2025-10-02 07:19:40+00:00",
+          "Placement": {
+            "AvailabilityZoneId": "usw1-az1",
+            "GroupName": "",
+            "Tenancy": "default",
+            "AvailabilityZone": "us-west-1a"
+          },
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "SubnetId": "subnet-0166c8a0c55b9f130",
+          "VpcId": "vpc-02a6e361c627a0483",
+          "PrivateIpAddress": "10.0.1.196",
+          "PublicIpAddress": "54.176.164.189"
+        }
+      ]
+    },
+    {
+      "ReservationId": "r-003034acb3b543733",
+      "OwnerId": "471112740109",
+      "Groups": [],
+      "Instances": [
+        {
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "AttachTime": "2025-10-02 07:19:42+00:00",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-032f8b45ed8a8d06d"
+              }
+            }
+          ],
+          "ClientToken": "17023f6c-a9e1-457a-b7cc-1adaf307ba50",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "NetworkInterfaces": [
+            {
+              "Attachment": {
+                "AttachTime": "2025-10-02 07:19:41+00:00",
+                "AttachmentId": "eni-attach-0c9fd517b82d47088",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupId": "sg-0eea52ae91a3f1a4e",
+                  "GroupName": "fang-sg-private"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "06:f8:8c:30:e0:dd",
+              "NetworkInterfaceId": "eni-06b2f71649b3f7c7d",
+              "OwnerId": "471112740109",
+              "PrivateIpAddress": "10.0.2.13",
+              "PrivateIpAddresses": [
+                {
+                  "Primary": true,
+                  "PrivateIpAddress": "10.0.2.13"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-095191e688a78eab1",
+              "VpcId": "vpc-02a6e361c627a0483",
+              "InterfaceType": "interface",
+              "Operator": {
+                "Managed": false
+              }
+            }
+          ],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupId": "sg-0eea52ae91a3f1a4e",
+              "GroupName": "fang-sg-private"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "fang-ec2-private"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled",
+            "InstanceMetadataTags": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "BootMode": "uefi-preferred",
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2025-10-02 07:19:41+00:00",
+          "PrivateDnsNameOptions": {
+            "HostnameType": "ip-name",
+            "EnableResourceNameDnsARecord": false,
+            "EnableResourceNameDnsAAAARecord": false
+          },
+          "MaintenanceOptions": {
+            "AutoRecovery": "default",
+            "RebootMigration": "default"
+          },
+          "CurrentInstanceBootMode": "uefi",
+          "NetworkPerformanceOptions": {
+            "BandwidthWeighting": "default"
+          },
+          "Operator": {
+            "Managed": false
+          },
+          "InstanceId": "i-0adbab3b1f61cec5b",
+          "ImageId": "ami-0b09bf4b909f29738",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "PrivateDnsName": "ip-10-0-2-13.us-west-1.compute.internal",
+          "PublicDnsName": "",
+          "StateTransitionReason": "",
+          "KeyName": "ff-test",
+          "AmiLaunchIndex": 0,
+          "ProductCodes": [],
+          "InstanceType": "t3.micro",
+          "LaunchTime": "2025-10-02 07:19:41+00:00",
+          "Placement": {
+            "AvailabilityZoneId": "usw1-az3",
+            "GroupName": "",
+            "Tenancy": "default",
+            "AvailabilityZone": "us-west-1c"
+          },
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "SubnetId": "subnet-095191e688a78eab1",
+          "VpcId": "vpc-02a6e361c627a0483",
+          "PrivateIpAddress": "10.0.2.13"
+        }
+      ]
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "47e55999-7886-46cd-95b6-a4920af6f16c",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "47e55999-7886-46cd-95b6-a4920af6f16c",
+      "cache-control": "no-cache, no-store",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "vary": "accept-encoding",
+      "content-type": "text/xml;charset=UTF-8",
+      "transfer-encoding": "chunked",
+      "date": "Thu, 02 Oct 2025 07:19:59 GMT",
+      "server": "AmazonEC2"
+    },
+    "RetryAttempts": 0
+  }
+}
