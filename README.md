@@ -92,15 +92,19 @@ CS218-HW3-VPC-Setup/
 Verification command example:
 ```bash
 curl -s http://169.254.169.254/latest/dynamic/instance-identity/document
+```
 
 ## Usage
 ### Setup
+```bash
 python3 hw3.py setup --region us-west-1 --prefix fang
-
+```
 ### Teardown
+```bash
 python3 hw3.py teardown --region us-west-1 --prefix fang
+```
 
-Author
+## Author
 
 Fang Fang
 CS218 – Cloud Technologies
